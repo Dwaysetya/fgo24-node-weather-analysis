@@ -1,0 +1,30 @@
+{
+  "name": "weatheranalys",
+  "version": "1.0.0",
+  "description": "alaysis weather",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "lint": "eslint index.js src/**/*.js",
+    "lint:fix": "slint index.js src/**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dwaysetya/fgo24-node-weather-analysis.git"
+  },
+  "keywords": [
+    "analysiswetaher"
+  ],
+  "author": "Dway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dwaysetya/fgo24-node-weather-analysis/issues"
+  },
+  "homepage": "https://github.com/Dwaysetya/fgo24-node-weather-analysis#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0"
+  }
+}
